@@ -3,5 +3,10 @@ body{
     color: rgb(77, 77, 77);
     font-family: "Comic Sans MS";
      
+    
       
+}
+
+.msg {
+    height: 50%;
 }
