@@ -14,8 +14,8 @@ html{
     height: 100vh;
     background-image: linear-gradient(#000000, #fafafa );
     background-image: linear-gradient(#000000, #fafafa );
-    display:grid;
-    place-items:center;    
+    /* display:grid;
+    place-items:center;     */
 }
 
 .form-heading {
