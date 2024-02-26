@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salary Information</title>
+  
+  <!-- Bootstrap v5.3.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="css/pcCases.css">
+</head>
+<body>
+
+<!--start navbar-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> <img src="img/newsupertek.jpg" width = "150" higth = "50" alt="Supertek logo"></a>
+   <a href="supertek.html"><button class="navbar-brand" href="">Supertek Computers</button></a>       
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Computer parts
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Pc case's</a></li>
+            <li><a class="dropdown-item" href="#">Motherbaord's</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Graphics card's</a></li>
+          </ul>
+        </li>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--end navbar-->
+
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <h1>Information</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        <a href="https://medium.com/swlh/how-much-am-i-really-getting-paid-b86e544f25ff" target="_blank">
+          <img src="img/gamingpc1.jpg" alt="gaming pc" class="img-fluid" style="width: 200px;">
+        </a>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <table class="table table-bordered border-primary">
+        <!-- Table content here -->
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h2 class="text-center">Information About Me</h2>
+      <p>.............................................................</p>
+    </div>
+  </div>
+
+  <!-- New Section for Picture and Text -->
+  <div class="row mt-5">
+    <div class="col-sm-6">
+      <p>
+        <a href="#" target="_blank">
+          <img src="img/SUPERTEK2.jpg" alt="Supertek logo" class="img-fluid" style="width: 200px;">
+        </a>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h2 class="text-center">How I started Supertek</h2>
+      <p>.............................................................
+        .............................................................
+        .............................................................
+        ..............................................................</p>
+    </div>
+  </div>
+  <!-- End of New Section -->
+
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Blocks people from inspecting -->
+<script>
+  document.body.oncontextmenu = document.body.onkeydown = document.body.onmousedown = function() {
+    return false;
+  }
+</script>
+
+</body>
+</html>
