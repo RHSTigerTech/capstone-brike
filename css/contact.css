@@ -12,8 +12,8 @@ html{
 .cont {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#000000, #fafafa );
-    background-image: linear-gradient(#000000, #fafafa );
+    background-image: linear-gradient(#000000, #a200ff );
+    background-image: linear-gradient(#000000, #c300ff );
     /* display:grid;
     place-items:center;     */
 }
