@@ -13,15 +13,15 @@
     width: 100%;
     height: 100vh;
     /* background-image: linear-gradient(#000000, #fafafa );
-<<<<<<< HEAD
+
     background-image: linear-gradient(#000000, #fafafa );*/
-    display:grid; 
-=======
+    /* display:grid; 
+
     background-image: linear-gradient(#000000, #fafafa ); */
-    /* display:grid; */
->>>>>>> main
-    place-items:center;    
+    /* display:grid; */ 
+place-items:center;
 }
+ 
 
 .active{
     font-size: 1.3rem;
